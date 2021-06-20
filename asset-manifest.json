@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MilkyWay/static/css/main.66356807.chunk.css",
+    "main.js": "/MilkyWay/static/js/main.b9a64ce4.chunk.js",
+    "main.js.map": "/MilkyWay/static/js/main.b9a64ce4.chunk.js.map",
+    "runtime-main.js": "/MilkyWay/static/js/runtime-main.d0aacd85.js",
+    "runtime-main.js.map": "/MilkyWay/static/js/runtime-main.d0aacd85.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/MilkyWay/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.7570d418.chunk.js": "/MilkyWay/static/js/2.7570d418.chunk.js",
+    "static/js/2.7570d418.chunk.js.map": "/MilkyWay/static/js/2.7570d418.chunk.js.map",
+    "static/js/3.1637060e.chunk.js": "/MilkyWay/static/js/3.1637060e.chunk.js",
+    "static/js/3.1637060e.chunk.js.map": "/MilkyWay/static/js/3.1637060e.chunk.js.map",
+    "index.html": "/MilkyWay/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/MilkyWay/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.66356807.chunk.css.map": "/MilkyWay/static/css/main.66356807.chunk.css.map",
+    "static/js/2.7570d418.chunk.js.LICENSE.txt": "/MilkyWay/static/js/2.7570d418.chunk.js.LICENSE.txt",
+    "static/media/logo.bd953574.svg": "/MilkyWay/static/media/logo.bd953574.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0aacd85.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.7570d418.chunk.js",
+    "static/css/main.66356807.chunk.css",
+    "static/js/main.b9a64ce4.chunk.js"
+  ]
+}
