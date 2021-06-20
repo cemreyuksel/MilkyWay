@@ -5,14 +5,15 @@ import { Card } from 'react-bootstrap';
 import { useFetch } from '../../hooks';
 import { UNIVERSE_URL, LOADING_MESSAGE } from '../../../dataLayer/env';
 
-import './style.css';
+import './style.scss';
 
 const Universes = () => {
   const [data, loading] = useFetch(UNIVERSE_URL);
+
   return (
     <>
       {loading ? (
-        `${LOADING_MESSAGE}`
+        <h2>{`${LOADING_MESSAGE}`}</h2>
       ) : (
         <div className="universe-items">
           {data.map(({ maxSize, name }, index) => (

@@ -19,11 +19,11 @@ const getUniverseName = (universes, universeId) => {
 };
 
 const Star = ({ name, color, universeId }) => {
-  const [data, loaded] = useFetch(UNIVERSE_URL);
+  const [data, loading] = useFetch(UNIVERSE_URL);
   return (
     <>
-      {loaded ? (
-        `${LOADING_MESSAGE}`
+      {loading ? (
+        <h2>{`${LOADING_MESSAGE}`}</h2>
       ) : (
         <Card
           bg={`${cardMap[color]}`}
