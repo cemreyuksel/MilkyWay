@@ -3,10 +3,9 @@ import React from 'react';
 import Star from '../Star';
 
 import { useFetch } from '../../hooks';
-import { STARS_URL, LOADING_MESSAGE} from '../../../dataLayer/env';
+import { STARS_URL, LOADING_MESSAGE } from '../../../dataLayer/env';
 
-import './style.css';
-
+import './style.scss';
 
 const Stars = () => {
   const [stars, loading] = useFetch(STARS_URL);
@@ -18,7 +17,7 @@ const Stars = () => {
   return (
     <>
       {loading ? (
-        `${LOADING_MESSAGE}`
+        <h2>{`${LOADING_MESSAGE}`}</h2>
       ) : (
         <div className="star-items">{starItems}</div>
       )}
