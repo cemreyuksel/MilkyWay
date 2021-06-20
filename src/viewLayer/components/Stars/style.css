@@ -1,0 +1,6 @@
+.universe-items {
+  display: grid;
+  margin: 2rem 0 3rem 0;
+  justify-items: center;
+  grid-gap: 2rem;
+}

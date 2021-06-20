@@ -1,22 +1,47 @@
-{"colors": ["RED", "BLUE", "GREEN", "YELLOW", "BLACK"],
+{
+  "colors": ["RED", "BLUE", "GREEN", "YELLOW", "BLACK"],
   "stars": [
-      {
+    {
       "color": "RED",
       "id": 123,
       "name": "My happy star 123",
       "universeId": 333
-      }, {
+    },
+    {
       "color": "YELLOW",
       "id": 321,
       "name": "321 is myy happy star",
-      "universeId": 333
-      }
+      "universeId": 33113
+    },
+    {
+      "color": "GREEN",
+      "id": 321,
+      "name": "321 dsfds myy happy star",
+      "universeId": 33113
+    },
+    {
+      "color": "BLUE",
+      "id": 321,
+      "name": "321 dsfds myy happy star",
+      "universeId": 33113
+    },
+    {
+      "color": "BLACK",
+      "id": 321,
+      "name": "321 dsfds myy happy star",
+      "universeId": 33113
+    }
   ],
   "universes": [
-      {
-        "id": 333,
-        "maxSize": 3,
-        "name": "Big universe"
-      }
-    ]
+    {
+      "id": 333,
+      "maxSize": 3,
+      "name": "Big universe"
+    },
+    {
+      "id": 33113,
+      "maxSize": 7,
+      "name": "small universe"
+    }
+  ]
 }

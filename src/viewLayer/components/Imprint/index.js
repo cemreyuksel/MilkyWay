@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default () => <h2 div="imprint-header">Imprint</h2>;
+const Imprint = () => <h2 div="imprint-header">Imprint</h2>;
+
+export default Imprint;
