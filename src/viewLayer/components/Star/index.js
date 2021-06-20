@@ -14,12 +14,13 @@ const cardMap = {
 };
 
 const getUniverseName = (universes, universeId) => {
-  const { name } = universes.find((universe) => universe.id === universeId);
+  const { name } = universes.find((universe) => universe.id === universeId) || 'This star has no universe';
   return name;
 };
 
 const Star = ({ name, color, universeId }) => {
   const [data, loading] = useFetch(UNIVERSE_URL);
+
   return (
     <>
       {loading ? (
