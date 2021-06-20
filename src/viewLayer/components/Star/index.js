@@ -14,7 +14,7 @@ const cardMap = {
 };
 
 const getUniverseName = (universes, universeId) => {
-  const { name } = universes.find((universe) => universe.id === universeId) || 'This star has no universe';
+  const { name } = universes.find((universe) => universe.id === universeId);
   return name;
 };
 
