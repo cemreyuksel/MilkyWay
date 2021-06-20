@@ -20,6 +20,7 @@ const getUniverseName = (universes, universeId) => {
 
 const Star = ({ name, color, universeId }) => {
   const [data, loading] = useFetch(UNIVERSE_URL);
+
   return (
     <>
       {loading ? (

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Universes component renders 1`] = `
+<div
+  className="universe-items"
+>
+  <div>
+    <div
+      className="text-center card bg-Info"
+      style={
+        Object {
+          "width": "20rem",
+        }
+      }
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Big universe
+        </div>
+        <div
+          className="card-header"
+        >
+          Max Size: 
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

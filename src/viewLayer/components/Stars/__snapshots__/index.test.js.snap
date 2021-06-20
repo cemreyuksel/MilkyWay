@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stars component renders 1`] = `
+<div
+  className="star-items"
+>
+  <StarComponent
+    color="RED"
+    name="My happy star 123"
+    universeId={333}
+  />
+  <StarComponent
+    color="YELLOW"
+    name="321 is myy happy star"
+    universeId={33113}
+  />
+</div>
+`;

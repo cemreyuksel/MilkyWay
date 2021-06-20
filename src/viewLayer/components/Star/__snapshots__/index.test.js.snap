@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stars component renders 1`] = `
+<div
+  className="text-center card bg-undefined"
+  style={
+    Object {
+      "width": "20rem",
+    }
+  }
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+       
+      some star name
+    </div>
+    <div
+      className="card-header"
+    >
+      Universe: 
+      Big universe
+    </div>
+  </div>
+</div>
+`;

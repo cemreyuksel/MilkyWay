@@ -24,7 +24,7 @@ const Universes = () => {
                 className="text-center"
               >
                 <Card.Body>
-                  <Card.Title> {name}</Card.Title>
+                  <Card.Title>{name}</Card.Title>
                   <Card.Header>Max Size: {maxSize}</Card.Header>
                 </Card.Body>
               </Card>
